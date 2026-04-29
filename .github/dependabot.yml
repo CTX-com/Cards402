@@ -37,6 +37,17 @@ updates:
         patterns:
           - 'typescript'
           - '@types/*'
+    # eslint major bumps are blocked until eslint-plugin-react publishes
+    # a release that accepts eslint 10 in its peerDependencies (current
+    # eslint-plugin-react@7.37.x maxes out at eslint@9.x via
+    # eslint-config-next's transitive constraint). Suppress the open
+    # PR so the queue isn't perpetually red on a known-blocked bump.
+    # Revisit when eslint-plugin-react@8 (or eslint-config-next bump)
+    # ships with eslint@10 peer support.
+    ignore:
+      - dependency-name: 'eslint'
+        update-types:
+          - 'version-update:semver-major'
     reviewers:
       - ash
 
