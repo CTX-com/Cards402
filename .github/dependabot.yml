@@ -9,10 +9,34 @@ updates:
     labels:
       - dependencies
     groups:
+      # Bundle minor + patch bumps across the whole tree into one PR
+      # so we don't get 8 separate PRs every Monday.
       minor-and-patch:
         update-types:
           - minor
           - patch
+      # Closely-coupled dev-tool families that publish in lock-step
+      # (vitest core/UI/coverage; eslint core/plugins/parsers; ts +
+      # @types). Keeping their major bumps in one PR prevents the
+      # lock-file inconsistency we hit on 2026-04-29 where four
+      # sequential dependabot merges each rebased independently
+      # against main and each squash overwrote the previous's
+      # node_modules entries.
+      vitest:
+        patterns:
+          - 'vitest'
+          - '@vitest/*'
+      eslint:
+        patterns:
+          - 'eslint'
+          - '@eslint/*'
+          - 'eslint-plugin-*'
+          - 'eslint-config-*'
+          - '@typescript-eslint/*'
+      typescript:
+        patterns:
+          - 'typescript'
+          - '@types/*'
     reviewers:
       - ash
 
