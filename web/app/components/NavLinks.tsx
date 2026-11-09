@@ -19,7 +19,7 @@ const PRIMARY: { href: string; label: string }[] = [
 const MORE: { href: string; label: string; body: string }[] = [
   { href: '/compare', label: 'Compare', body: 'vs corporate + shared cards' },
   { href: '/security', label: 'Security', body: 'Architecture + disclosure' },
-  { href: '/careers', label: 'Careers', body: 'Open roles + benefits' },
+  { href: '/careers', label: 'Careers', body: 'Benefits + how we work' },
   { href: '/press', label: 'Press', body: 'Media kit + contact' },
   { href: '/affiliate', label: 'Affiliate', body: 'Earn on every card · soon' },
 ];

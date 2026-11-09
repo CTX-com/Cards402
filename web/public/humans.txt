@@ -2,7 +2,7 @@
 
 Cards402 is built by a small distributed team focused on payment
 infrastructure for autonomous agents. We publish every salary and we write
-everything down. Come work with us: https://cards402.com/careers
+everything down.
 
 Contact: hello@cards402.com
 Press:   press@cards402.com
@@ -19,7 +19,7 @@ Location: Remote-first · London HQ
 
 /* SITE */
 
-Last update: 2026-04-14
+Last update: 2026-11-09
 Standards: HTML5, CSS3, TypeScript
 Components: Next.js 16, React 19
 Typography: Fraunces (display), IBM Plex Sans (body), IBM Plex Mono (data)

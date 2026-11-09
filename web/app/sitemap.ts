@@ -41,7 +41,7 @@ const ROUTES: Array<{
   },
   { path: '/changelog', changeFrequency: 'weekly', priority: 0.7 },
   { path: '/company', changeFrequency: 'monthly', priority: 0.7 },
-  { path: '/careers', changeFrequency: 'weekly', priority: 0.7 },
+  { path: '/careers', changeFrequency: 'monthly', priority: 0.5 },
   { path: '/press', changeFrequency: 'monthly', priority: 0.6 },
   { path: '/affiliate', changeFrequency: 'monthly', priority: 0.6 },
   { path: '/privacy', changeFrequency: 'yearly', priority: 0.4 },

@@ -307,7 +307,6 @@ export default function CompanyPage() {
           >
             {[
               ['General', 'hello@cards402.com'],
-              ['Careers', 'careers@cards402.com'],
               ['Press', 'press@cards402.com'],
               ['Partnerships', 'partners@cards402.com'],
             ].map(([label, email]) => (
