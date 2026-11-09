@@ -26,7 +26,7 @@ but a lot of its gap items have since shipped too.
 | Structured data (SoftwareApplication) |   ✅   | Landing page (loop 7)                                                 |
 | Structured data (FAQPage)             |   ✅   | `/pricing` — 7 questions                                              |
 | Structured data (Product)             |   ✅   | `/pricing`                                                            |
-| Structured data (JobPosting)          |   ✅   | `/careers` × 4 roles                                                  |
+| Structured data (JobPosting)          |   —    | Removed with the listings; re-add when hiring resumes                 |
 | Structured data (HowTo)               |   ✅   | `/docs/quickstart` — 5 steps with anchor URLs (loop 7)                |
 | Structured data (TechArticle)         |   ✅   | `/docs` (loop 11)                                                     |
 | Structured data (BlogPosting)         |   ✅   | Per-post + ItemList on `/changelog` (loops 3, 10, 12, 13)             |
